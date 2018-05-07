@@ -56,7 +56,9 @@ class GoogleController extends Controller
      */
     public function handleProviderCallback()
     {
+
         $userSocial = Socialite::driver('google')->user();
+        
 
 
         //check if user exists and log user in

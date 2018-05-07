@@ -36,9 +36,9 @@ return [
     ],
 
     'facebook' => [
-         'client_id' => '2091838484373383',         // Your facebook Client ID
-        'client_secret' => 'bc6b19e476123f0f6bc55549b6e36d36', // Your facebook Client Secret
-        'redirect' => 'http://localhost:8000/login/facebook/callback',
+         'client_id' => '365391783975151',         // Your facebook Client ID
+        'client_secret' => 'b8857874e497b27ea53d8e094262da24', // Your facebook Client Secret
+        'redirect' => 'http://dev.socialite.com/login/facebook/callback',
     ],
 
     'twitter' => [
@@ -57,9 +57,9 @@ return [
         'redirect' => 'http://localhost:8000/login/linkedin/callback',
     ],
     'google' => [
-        'client_id' => '366049614781-dsrvkl028r45n77u5p9diqm709vpaok5.apps.googleusercontent.com',         // Your google Client ID
-        'client_secret' => 'WMmQNVvGohVMvpIx7o-doI2X', // Your google Client Secret
-        'redirect' => 'http://localhost:8000/login/google/callback',
+        'client_id' => '217838623965-i4shlk2p2vi0hsktonfi3ekc0591vfn5.apps.googleusercontent.com',         // Your google Client ID
+        'client_secret' => '5SnIzLE5_HGLlK7Tr_vgnJXN', // Your google Client Secret
+        'redirect' => 'http://dev.socialite.com/login/google/callback',
     ],
 
 ];

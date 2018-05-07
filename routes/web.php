@@ -34,5 +34,8 @@ Route::get('login/linkedin', 'Auth\LinkedinController@redirectToProvider');
 Route::get('login/linkedin/callback', 'Auth\LinkedinController@handleProviderCallback');
 
 //google
-Route::get('login/google', 'Auth\GoogleController@redirectToProvider');
+Route::get('login/google', 'Auth\GoogleController@redirectToProvider')->name('google');
 Route::get('login/google/callback', 'Auth\GoogleController@handleProviderCallback');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
